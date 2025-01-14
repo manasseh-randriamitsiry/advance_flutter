@@ -4,6 +4,7 @@ import 'package:advance_flutter_practice/presentation/login/loginView.dart';
 import 'package:advance_flutter_practice/presentation/main/mainview.dart';
 import 'package:advance_flutter_practice/presentation/onBoarding/onBoardingView.dart';
 import 'package:advance_flutter_practice/presentation/register/registerView.dart';
+import 'package:advance_flutter_practice/presentation/ressources/string_manager.dart';
 import 'package:advance_flutter_practice/presentation/splash/splashView.dart';
 import 'package:flutter/material.dart';
 
@@ -43,9 +44,9 @@ class RouteGenerator {
     return MaterialPageRoute(
       builder: (_) => Scaffold(
         appBar: AppBar(
-          title: Text('No route Found'),
+          title: Text(AppString.noRouteFound),
         ),
-        body: Text('No route found'),
+        body: Text(AppString.noRouteFound),
       ),
     );
   }

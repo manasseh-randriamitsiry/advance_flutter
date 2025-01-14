@@ -1,3 +1,5 @@
+import 'package:advance_flutter_practice/presentation/ressources/assets_manager.dart';
+import 'package:advance_flutter_practice/presentation/ressources/color_manager.dart';
 import 'package:flutter/material.dart';
 
 class Splashview extends StatefulWidget {
@@ -10,8 +12,9 @@ class Splashview extends StatefulWidget {
 class _SplashviewState extends State<Splashview> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: Text('spash view')
+    return Scaffold(
+      backgroundColor: ColorManager.primary,
+      body: Center(child: Image(image: AssetImage(AppImageAssets.splashLogo))),
     );
   }
 }
