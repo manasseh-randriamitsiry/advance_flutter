@@ -1,6 +1,6 @@
-import 'package:advance_flutter_practice/presentation/color_manager.dart';
-import 'package:advance_flutter_practice/presentation/styles_manager.dart';
-import 'package:advance_flutter_practice/presentation/values_manager.dart';
+import 'package:advance_flutter_practice/presentation/ressources/color_manager.dart';
+import 'package:advance_flutter_practice/presentation/ressources/styles_manager.dart';
+import 'package:advance_flutter_practice/presentation/ressources/values_manager.dart';
 import 'package:flutter/material.dart';
 
 import 'font_manager.dart';
